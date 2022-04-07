@@ -18,7 +18,10 @@ There are some common commands we should know.
   * rm <filename>: delete the given file.
   * ls -a : list all the hidden files.
   * rm -rf : remove everything with force. 
+ 
 ## Moving Files with scp
+ scp means secure copy, used to copy from local to server or reverse. 
 ## Setting an SSH Key
+ 
 ## Optimizing Remote Running
 

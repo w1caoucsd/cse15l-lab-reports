@@ -17,6 +17,6 @@ Hello World
 
 
 A list 
-*list
-*list
-*list
+-list
+-list
+-list

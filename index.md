@@ -20,3 +20,7 @@ A list
 - list
 * list
 - list
+
+Horizontal rule:
+----------------
+

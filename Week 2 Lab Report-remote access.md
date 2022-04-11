@@ -30,8 +30,8 @@ There are some common commands we should know. This step is to show you how to u
 
 ## Setting an SSH Key
 In this step, the goal is to set a SSH key for your particular computer, meaning that if you set the key for a computer, the server will recognize this computer, and you don't have to type in a password when you try to get the remote access.
- ![Part 5 image](Lab1Part5 1/2.png)
- ![Part 5 image](Lab1Part5 2/2.png)
+ ![Part 5 image](Lab1Part51.png)
+ ![Part 5 image](Lab1Part52.png)
 
 ## Optimizing Remote Running
 Lastly, we can try tp optimize running, meaning we can put more than one thing to one command line and it is the same as if you were to type them in seperately and it saves time.

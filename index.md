@@ -37,3 +37,5 @@ In this step, the goal is to set a SSH key for your particular computer, meaning
 Lastly, we can try tp optimize running, meaning we can put more than one thing to one command line and it is the same as if you were to type them in seperately and it saves time.
 ![Part 6 image](Lab1Part6.png)
 
+<<<<<<< HEAD
+=======

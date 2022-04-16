@@ -1,25 +1,25 @@
 # Week 2 Lab Report-remote access
 ## Installing VScode
-The first step is to install visual studio code. Be aware the difference between **visual studio code** and **visual studio**, They are two different applicaitons. Go to the official website of visual studio code. Then you should see an icon with blue triangle, and when you open it, it should look like the following picture.
+The first step is to install visual studio code. Be aware the difference between **visual studio code** and **visual studio**, They are two different applicaitons. Go to the official website of visual studio code[Link to download visul studio code](https://code.visualstudio.com). Then you should see an icon with blue triangle, and when you open it, it should look like the following picture.
 ![Part 1 image](Lab1Part1.png)
 
 ## Remotely Connecting
-The second step is to connect to the secure server remotely. We want to use a command looks like this ssh cs15lsp22zz@ieng6.ucsd.edu, ssh means secure shell.
+The second step is to connect to the secure server remotely. We want to use a command looks like this `ssh cs15lsp22zz@ieng6.ucsd.edu`, `ssh` means secure shell.
 ![Part 2 image](Lab1Part2.png)
 ## Trying Some Commands
 There are some common commands we should know. This step is to show you how to use commands
-  * cd .. : go back to the parent directory.
-  * cd : change directory.
-  * cd ~ : go back to the home directory, wherever you initially started with.
-  * ls : list of the files in the current directory.
-  * mkdir <directory name>: make a directory with given name.
-  * rmdir <directory name>: remove/delete a directory with given name.
-  * cat <filename>: print content of given file.
-  * mv <filename><filename>: rename file, more specifically copy the content of first file and paste to the second file, then delete the first file. 
-  * cp <filename>: copy the given file.
-  * rm <filename>: delete the given file.
-  * ls -a : list all the hidden files.
-  * rm -rf : remove everything with force. 
+  * `cd ..` : go back to the parent directory.
+  * `cd` : change directory.
+  * `cd ~` : go back to the home directory, wherever you initially started with.
+  * `ls` : list of the files in the current directory.
+  * `mkdir <directory name>`: make a directory with given name.
+  * `rmdir <directory name>`: remove/delete a directory with given name.
+  * `cat <filename>`: print content of given file.
+  * `mv <filename><filename>`: rename file, more specifically copy the content of first file and paste to the second file, then delete the first file. 
+  * `cp <filename>`: copy the given file.
+  * `rm <filename>`: delete the given file.
+  * `ls -a` : list all the hidden files.
+  * `rm -rf` : remove everything with force. 
 
 ![Part 3 image](Lab1Part3.png)
 

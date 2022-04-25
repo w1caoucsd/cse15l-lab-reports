@@ -2,7 +2,8 @@
 ## Heading 2
 
 [Here is the link to my week2 lab report](https://w1caoucsd.github.io/cse15l-lab-reports/Week-2-Lab-Report-remote-access)
-[ere is the link to my week4 lab report](https://w1caoucsd.github.io/cse15l-lab-reports/Week-4-Lab-Report)
+
+[Here is the link to my week4 lab report](https://w1caoucsd.github.io/cse15l-lab-reports/Week-4-Lab-Report)
 
 
 *Italic*	

@@ -18,5 +18,5 @@ This bug is cause by additional "(" in the test file, and the symptom is that th
 ![wrongOutput](wrongOutput.png)
 ## What I did for fix all the problems above?
 What I did to fix is that I split the input string into an arrayList of string by the new line character, then in each element of arrayList, I look for the following characters, "(", ")", "[", "]". Form there, I only consider any line of input a valid input if I find all four characters. 
-![modification1](Modify-markdownParse-for-faluty-test-file1.png)
-![modificaiton2](Modify-markdownParse-for-faluty-test-file2.png)
+![modification1](Modify-markdownParse-for-faluty-test-file2.png)
+![modificaiton2](Modify-markdownParse-for-faluty-test-file1.png)

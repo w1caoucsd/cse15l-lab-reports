@@ -28,3 +28,5 @@ The fourth thing we want to do is that to commit the changes, which is adding a 
 ![git-commit](git-commit-form-ieng6.png)
 Then the last thing is to push to the GitHub repository. We want to use `git push` as shown.
 ![git-push](git-push-form-ieng6.png)
+Now, if we log into our GitHub repository, we can see there is one new empty file called file1 in there. We can also see this using this link, [Here is the link  for the resulting commit](https://github.com/w1caoucsd/cse15l-lab-reports/commit/1e1a491642cb9d154120bffec9b665db5f384b62)
+![check-change](check-change-on-GItHub-repository.png)

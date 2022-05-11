@@ -30,3 +30,13 @@ Then the last thing is to push to the GitHub repository. We want to use `git pus
 ![git-push](git-push-form-ieng6.png)
 Now, if we log into our GitHub repository, we can see there is one new empty file called file1 in there. We can also see this using this link, [Here is the link  for the resulting commit](https://github.com/w1caoucsd/cse15l-lab-reports/commit/1e1a491642cb9d154120bffec9b665db5f384b62)
 ![check-change](check-change-on-GItHub-repository.png)
+## Copy whole directories with scp -r
+### Copying your whole markdown-parse directory to your ieng6 account.
+I used this command `scp -r markdown-parser cs15lsp22apu@ieng6.ucsd.edu:.` to copy the markdown-parser directory to the home directory of my ieng6 account.
+![](Copying-your-whole-markdown-parse-directory-to-your-ieng6-account.png)
+
+### logging into your ieng6 account after doing this and compiling and running the tests for your repository.
+### combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+lastly, I put all the commands together into one line `scp -r markdown-parser cs15lsp22apu@ieng6.ucsd.edu:.; ssh ieng6 "cd markdown-parser;/software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;/software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"` and the results are as shown below. There was a small thing to notice is that I used to do this `scp -r markdown-parser cs15lsp22apu@ieng6.ucsd.edu:.; ssh ieng6 "cd markdown-parser;javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"` and it did not work. Then I replace the `javac` and `java` with `/software/CSE/oracle-java-17/jdk-17.0.1/bin/javac` and `/software/CSE/oracle-java-17/jdk-17.0.1/bin/java` respectively. Then this worked. 
+![](combining-scp%2C-%3B%2C-and-ssh-to-copy-the-whole-directory-and-run-the-tests-in-one-line.1.png)
+![](combining-scp%2C-%3B%2C-and-ssh-to-copy-the-whole-directory-and-run-the-tests-in-one-line.2.png)

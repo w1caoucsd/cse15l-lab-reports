@@ -1,4 +1,5 @@
 # lab-report-3-week-6
+
 ## Streamlining ssh Configuration
 ### Show your .ssh/config file, and how you edited it (with VScode)
 First, I accessed .ssh/config file by VScode. 
@@ -11,12 +12,14 @@ After I set the key in my `.ssh` file, I can log into my ucsd server using only 
 ### Show an scp command copying a file to your account using just the alias you chose.
 Third, scp command copying a file to your account. I used the command `scp <filename> ieng6:~` to copy file from my local computer to the ucsd server. I highlighted how I did it in the screeshot, and then in logged into the server using the alias to check if the file copied successfully.
 ![ucsd-server](logging-into-ieng6-with-just-the-alias-and-scp-file.png)
+
 ## Setup Github Access from ieng6
 First, I set up the private key in ucsd server by using the command `ssh-keygen`
 ![setting-up](setting-private-key-to-github.png)
 Then, I made use `ls` to see all the files to see where I stored the private key files. 
 ![private-key](private-key-location.png)
 Then, I copied it to github
+### Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 ![github](public-key-locaiton-in-github.png)
 To access GitHub form a server like `ieng6`, there are couple steps you need to follow.
 First, we want to clone a GitHub repository into the `ieng6`. After we set up the `ssh` key to our GitHub settings, we can clone the GitHub repository into the `ieng6` with the ssh link without actually typing in password. One thing to keep in mind is to use the corrct link, there are `HTTPS`, `SSH` and `GitHub CLI` links, remember to copy the `SSH` link as the screenshot show.
@@ -31,8 +34,10 @@ The fourth thing we want to do is that to commit the changes, which is adding a 
 ![git-commit](git-commit-form-ieng6.png)
 Then the last thing is to push to the GitHub repository. We want to use `git push` as shown.
 ![git-push](git-push-form-ieng6.png)
+### Show a link for the resulting commit.
 Now, if we log into our GitHub repository, we can see there is one new empty file called file1 in there. We can also see this using this link, [Here is the link  for the resulting commit](https://github.com/w1caoucsd/cse15l-lab-reports/commit/1e1a491642cb9d154120bffec9b665db5f384b62)
 ![check-change](check-change-on-GItHub-repository.png)
+
 ## Copy whole directories with scp -r
 ### Copying your whole markdown-parse directory to your ieng6 account.
 I used this command `scp -r markdown-parser cs15lsp22apu@ieng6.ucsd.edu:.` to copy the markdown-parser directory to the home directory of my ieng6 account, `:.` means you want to copy it to the home directory.

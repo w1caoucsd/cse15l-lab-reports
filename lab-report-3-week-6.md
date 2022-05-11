@@ -32,7 +32,7 @@ Now, if we log into our GitHub repository, we can see there is one new empty fil
 ![check-change](check-change-on-GItHub-repository.png)
 ## Copy whole directories with scp -r
 ### Copying your whole markdown-parse directory to your ieng6 account.
-I used this command `scp -r markdown-parser cs15lsp22apu@ieng6.ucsd.edu:.` to copy the markdown-parser directory to the home directory of my ieng6 account.
+I used this command `scp -r markdown-parser cs15lsp22apu@ieng6.ucsd.edu:.` to copy the markdown-parser directory to the home directory of my ieng6 account, `:.` means you want to copy it to the home directory.
 ![](Copying-your-whole-markdown-parse-directory-to-your-ieng6-account.png)
 
 ### logging into your ieng6 account after doing this and compiling and running the tests for your repository.

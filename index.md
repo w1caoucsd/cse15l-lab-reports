@@ -1,9 +1,11 @@
 # Heading 
 ## Heading 2
 
-[Here is the link to my week2 lab report](https://w1caoucsd.github.io/cse15l-lab-reports/Week-2-Lab-Report-remote-access)
+[Here is the link to my week2 lab report 1](https://w1caoucsd.github.io/cse15l-lab-reports/Week-2-Lab-Report-remote-access)
 
-[Here is the link to my week4 lab report](https://w1caoucsd.github.io/cse15l-lab-reports/Week-4-Lab-Report)
+[Here is the link to my week4 lab report 2](https://w1caoucsd.github.io/cse15l-lab-reports/Week-4-Lab-Report)
+
+[Here is the link to my week4 lab report 3](https://w1caoucsd.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
 
 *Italic*	

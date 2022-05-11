@@ -14,13 +14,18 @@ Third, scp command copying a file to your account. I used the command `scp <file
 ![ucsd-server](logging-into-ieng6-with-just-the-alias-and-scp-file.png)
 
 ## Setup Github Access from ieng6
+### Show where the public key you made is stored on Github and in your user account (screenshot).
 First, I set up the private key in ucsd server by using the command `ssh-keygen`
 ![setting-up](setting-private-key-to-github.png)
 Then, I made use `ls` to see all the files to see where I stored the private key files. 
 ![private-key](private-key-location.png)
-Then, I copied it to github
-### Show running git commands to commit and push a change to Github while logged into your ieng6 account.
+Then, I copied it to github, inside of the config file, there is a file called `id_rsa.pub`, this is where you public key stored.
+![](public-key-you-made-is-stored-on-Github.png)
 ![github](public-key-locaiton-in-github.png)
+### Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
+The private key is stored at a file called `id_rsa` as the following screenshot.
+![](where-the-private-key-is-stored.png)
+### Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 To access GitHub form a server like `ieng6`, there are couple steps you need to follow.
 First, we want to clone a GitHub repository into the `ieng6`. After we set up the `ssh` key to our GitHub settings, we can clone the GitHub repository into the `ieng6` with the ssh link without actually typing in password. One thing to keep in mind is to use the corrct link, there are `HTTPS`, `SSH` and `GitHub CLI` links, remember to copy the `SSH` link as the screenshot show.
 ![right-link](right-ssh-link-to-copy.png)

@@ -8,7 +8,8 @@ I did this by opening the `.ssh` file with VScode, it is on my computer if I do 
 ![.ssh-file](using-vscode-opening-.ssh-file.png)
 ### Show the ssh command logging you into your account using just the alias you chose.
 Second, I used ssh command to log into the server with just the alias.
-After I set the key in my `.ssh` file, I can log into my ucsd server using only `ssh ieng6` without typing in the rest of my user name. 
+After I set the key in my `.ssh` file, I can log into my ucsd server using only `ssh ieng6` without typing in the rest of my user name. As the following screenshot shown in 3 lines below the highlighted content.
+![ucsd-server](logging-into-ieng6-with-just-the-alias-and-scp-file.png)
 ### Show an scp command copying a file to your account using just the alias you chose.
 Third, scp command copying a file to your account. I used the command `scp <filename> ieng6:~` to copy file from my local computer to the ucsd server. I highlighted how I did it in the screeshot, and then in logged into the server using the alias to check if the file copied successfully.
 ![ucsd-server](logging-into-ieng6-with-just-the-alias-and-scp-file.png)

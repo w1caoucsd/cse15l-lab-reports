@@ -5,7 +5,9 @@
 
 [Here is the link to my week4 lab report 2](https://w1caoucsd.github.io/cse15l-lab-reports/Week-4-Lab-Report)
 
-[Here is the link to my week4 lab report 3](https://w1caoucsd.github.io/cse15l-lab-reports/lab-report-3-week-6)
+[Here is the link to my week6 lab report 3](https://w1caoucsd.github.io/cse15l-lab-reports/lab-report-3-week-6)
+
+[Here is the link to my week8 lab report 4]((https://w1caoucsd.github.io/cse15l-lab-reports/Week-8-Lab-Report-4.md)
 
 
 *Italic*	

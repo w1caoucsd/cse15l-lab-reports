@@ -9,6 +9,8 @@
 
 [Here is the link to my week8 lab report 4](https://w1caoucsd.github.io/cse15l-lab-reports/Week-8-Lab-Report-4)
 
+[Here is the link to my week10 lab report 5](https://w1caoucsd.github.io/cse15l-lab-reports/Week-10-Lab-Report-5)
+
 
 *Italic*	
 **Bold**	

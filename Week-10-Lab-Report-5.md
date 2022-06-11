@@ -18,5 +18,9 @@ For test 495, my implementation is not correct, but the implementation provided 
 ![](commonMarkDemo.png)
 ### For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made)
 For test 12, the bug is that my implemetation look for the following four symbols, "(", ")", "[", "]", to determine whether it is a valid link, but it is not sufficient, because that like in test 12, it could be a string of random symbols that happend to contian the following four smybols, but it is not a valid link.
+![](1.png)
+
+For test 495, the bug is that my implementaion look for the first of the following four symbols, "(", ")", "[", "]" that appeared in the link, and might make it incorrect, because we want to look for the last symbol if there is any repeats. It can be fixed by changing the program to find the last symbol.
+![](2.png)
 
 
